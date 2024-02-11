@@ -1,0 +1,22 @@
+---
+import {getI18n} from "../i18n/index";
+
+const { currentLocale } = Astro;
+const i18n = getI18n({ currentLocale });
+---
+
+<header id="header-nav" class="fixed top-0 left-0 right-0 flex justify-between items-center py-5 w-full xl:w-[1120px] mx-auto text-slate-900">
+  
+  <img 
+    class="rounded-full size-10" 
+    src="https://yt3.googleusercontent.com/ytc/AIf8zZSgZfY1KXOeTa8mQgVZcWKRVfG2Qwm2PnB-vPA4=s176-c-k-c0x00ffffff-no-rj" 
+    alt="Logo Personal Michael Pineda">
+  <nav class="flex flex-row gap-x-8">
+    <a href="">{i18n.header.home}</a>
+    <a href="">{i18n.header.about}</a>
+    <a href="">{i18n.header.contact}</a>
+    <a href="">{i18n.header.work}</a>
+    <a href="">{i18n.header.education}</a>
+    <a href="">{i18n.header.skills}</a>
+    <a href="">{i18n.header.proyect}</a>
+</header>

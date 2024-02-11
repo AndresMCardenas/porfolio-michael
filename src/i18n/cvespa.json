@@ -1,0 +1,168 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "work": "Experiencia",
+    "education": "Educación",
+    "skills": "Skills",
+    "proyect": "Proyectos"
+  },
+  "basics": {
+    "titel": "Michael Pineda Portfolio",
+    "description": "Este es el portafolio de michael pineda, un profesional en cine y television con experiencia en produccion de contenido audiovisual, edicion de video y fotografia. Actualmente me encuentro en la busqueda de nuevas oportunidades laborales en el area de produccion audiovisual y fotografia.",
+    "name": "Michael Pineda Cárdenas",
+    "label": "Profesional en Dirección y Producción de Cine y Televisión.",
+    "image": "https://yt3.googleusercontent.com/ytc/AIf8zZSgZfY1KXOeTa8mQgVZcWKRVfG2Qwm2PnB-vPA4=s176-c-k-c0x00ffffff-no-rj",
+    "email": "michael.pinedaph@gmail.com",
+    "phone": "(+57) 311202063",
+    "url": "null",
+    "summary": "Me apasiona el mundo del cine y la creación audiovisual, y mi objetivo es perfeccionar mis habilidades tanto laborales como artísticas para alcanzar un nivel profesional destacado en esta industria. Mi enfoque principal es crear piezas audiovisuales de alta calidad que no solo reflejen mi creatividad y destreza técnica, sino que también comuniquen mi compromiso con la excelencia en cada proyecto. ",
+    "summary2": "Estoy constantemente buscando nuevas oportunidades para aprender y desarrollar habilidades que me permitan superar mis limitaciones y crecer como profesional. Aspiro a producir contenido que hable por sí mismo, que demuestre mi pasión por el cine y que me ayude a convertirme en un mejor cineasta cada día.",
+    "summary3": "Mi meta última es dirigir y escribir una obra cinematográfica original que inspire y emocione a las audiencias de todo el mundo.",
+    "location": {
+      "address": "Cr 52b sur # 20-69 int 11 manzana 28",
+      "postalCode": "Bog 110871",
+      "city": "Bogotá D.C.",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Michael Pineda",
+        "url": "https://www.linkedin.com/in/michael-pineda-c%C3%A1rdenas-6779a5186"
+      },
+      {
+        "network": "Youtube",
+        "username": "Smithos",
+        "url": "https://www.youtube.com/@smithos2121"
+      },
+      {
+        "network": "X",
+        "username": "Smithos",
+        "url": "https://twitter.com/smiithos"
+      }
+    ],
+    "badge":"Mi Portafolio"
+  },
+  "work": [
+    {
+      "name": "Nuevo",
+      "position": "Nuevo 1",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2022-08-01",
+      "summary": "Nuevo2",
+      "add": "Agregue nuevo trabajo"
+    },
+    {
+      "name": "Larry y Rass",
+      "position": "Guionista, director y creador original ",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2022-08-01",
+      "summary": "Presentado en formato de animatic como trabajo de grado en el año 2022",
+      "add": [
+        "Durante mi trayectoria universitaria, me he destacado en el desarrollo de habilidades clave en montaje y edición audiovisual, así como en la escritura y estructuración de guiones. Además, he adquirido un dominio sólido en el uso de programas de edición de audio y video",
+        "Mi interés y destreza en la animación de tipo Cut Out se han convertido en aspectos destacados de mi experiencia. He tenido la oportunidad de llevar a cabo la producción de un cortometraje utilizando esta técnica. ",
+        "Asimismo, he explorado técnicas similares, como la pixilación, la cual utilicé en la creación de un video clip."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitaria Agustiniana",
+      "title": "Profecional en Cine y Televisión",
+      "url": "https://www.uniagustiniana.edu.co/",
+      "area": "Cine y Televisión",
+      "studyType": "Pregrado",
+      "startDate": "2017-08-01",
+      "endDate": "2022-08-01",
+      "score": "4.0",
+      "courses": [
+        "Cine y Televisión"
+      ]
+    },
+    {
+      "institution": "Colegio Nacional Nicolás Esguerra",
+      "title": "Bachillerato academico",
+      "url": "https://www.colegionicolasesguerra.edu.co/",
+      "area": "Bachillerato",
+      "studyType": "Academico",
+      "startDate": "2009-01-01",
+      "endDate": "2016-01-01",
+      "score": "4.0",
+      "courses": [
+        "Bachillerato academico"
+      ]
+    },
+    {
+      "institution": "Zona Cinco",
+      "title": "Escuela de cine y televisión",
+      "url": "https://zona-cinco.com/",
+      "area": "Cine y Televisión",
+      "studyType": "Diplomado",
+      "startDate": "2017-01-01",
+      "endDate": "2017-12-01",
+      "score": "4.0",
+      "courses": [
+        "Cine y Televisión"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Photoshop",
+      "level": 50
+    },
+    {
+      "name": "Premiere",
+      "level": 70
+    },
+    {
+      "name": "After Effects",
+      "level": 30
+    },
+    {
+      "name": "Auditon",
+      "level": 40
+    },
+    {
+      "name": "podefinir",
+      "level": 30
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B1 - Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Escritura de Guión"
+    },
+    {
+      "name": "Edición y montaje audiovisual"
+    },
+    {
+      "name": "Edicion de audio"
+    },
+    {
+      "name": "Fotografía"
+    }
+  ],
+  "references": [
+    {
+      "name": "Amigo 1",
+      "reference": "Inserte referencia.",
+      "contact": "Inserte contacto."
+    },
+    {
+      "name": "Amigo 2",
+      "reference": "Inserte referencia.",
+      "contact": "Inserte contacto."
+    }
+  ]
+}
