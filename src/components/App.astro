@@ -1,8 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Badge from "../components/Badge.astro";
+import SocialPill from "../components/SocialPill.astro";
+import LinkedIn from "../components/icons/LinkedIn.astro";
+import Mail from "../components/icons/Mail.astro";
+import Phone from "../components/icons/Phone.astro";
+import WorldMap from "../components/icons/WorldMap.astro";
+import Youtube from "../components/icons/Youtube.astro";
+import X from "../components/icons/X.astro";
 
 import {getI18n} from "../i18n/index";
+import Expirence from "./Expirence.astro";
+import Education from "./Education.astro";
+import SectionContainer from "../components/Section.astro";
 
 const { currentLocale } = Astro;
 const i18n = getI18n({ currentLocale });
@@ -14,7 +24,7 @@ const i18n = getI18n({ currentLocale });
   description={i18n.basics.description}
 >
   <main>
-    <section class="w-full lg:w-[740px] mx-auto py-40 text-slate-700">
+    <SectionContainer class="w-full lg:w-[740px] mx-auto py-40 text-slate-700">
       <h1 class="text-5xl font-semibold flex flow-row gap-x-4 pb-6">
         {i18n.basics.name}
         <a
@@ -34,7 +44,40 @@ const i18n = getI18n({ currentLocale });
       <h2 class="text-xl opacity-80 text-wrap"><span>{i18n.basics.summary}</span></h2>
       <h2 class="text-xl opacity-80 text-pretty "><span>{i18n.basics.summary2}</span></h2>
       <h2 class="text-xl opacity-80 text-pretty font-semibold"><span>{i18n.basics.summary3}</span></h2>
-    </section>
+
+      <nav class="flex gap-x-2 mt-8">
+        <SocialPill href="https://www.linkedin.com/in/michael-pineda-cárdenas-6779a5186">
+          <LinkedIn class="size-6" />
+            
+        </SocialPill>
+        <SocialPill href={`mailto:${i18n.basics.email}`} >
+          <Mail class="size-6" />
+            {i18n.basics.email}
+        </SocialPill>
+        <SocialPill>
+          <Phone class="size-6" />
+            {i18n.basics.phone}
+        </SocialPill>
+        <SocialPill>
+          <WorldMap class="size-6" />
+            Bogotá, Colombia
+        </SocialPill><SocialPill href="https://www.youtube.com/@smithos2121">
+          <Youtube class="size-6" />
+            
+        </SocialPill><SocialPill href="https://twitter.com/smiithos">
+          <X class="size-6" />
+          
+        </SocialPill>
+      </nav>  
+    </SectionContainer>
+
+    <SectionContainer>
+      <Expirence />
+    </SectionContainer>
+      <Education />
+    <SectionContainer >
+      
+    </SectionContainer>
   </main>
 </Layout>
 
