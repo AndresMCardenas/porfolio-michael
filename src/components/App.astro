@@ -24,8 +24,8 @@ const i18n = getI18n({ currentLocale });
   description={i18n.basics.description}
 >
   <main>
-    <SectionContainer class="w-full lg:w-[740px] mx-auto py-40 text-slate-700">
-      <h1 class="text-5xl font-semibold flex flow-row gap-x-4 pb-6">
+    <SectionContainer id="/" class="w-full lg:w-[740px] mx-auto py-40 pb-24 text-slate-700">
+      <h1 class="text-5xl font-semibold flex flow-row gap-x-4 pb-4">
         {i18n.basics.name}
         <a
           href="https://www.youtube.com/@smithos2121"
@@ -43,9 +43,9 @@ const i18n = getI18n({ currentLocale });
       </h1>
       <h2 class="text-xl opacity-80 text-wrap"><span>{i18n.basics.summary}</span></h2>
       <h2 class="text-xl opacity-80 text-pretty "><span>{i18n.basics.summary2}</span></h2>
-      <h2 class="text-xl opacity-80 text-pretty font-semibold"><span>{i18n.basics.summary3}</span></h2>
+      <h2 id="contact" class="text-xl opacity-80 text-pretty font-semibold"><span>{i18n.basics.summary3}</span></h2>
 
-      <nav class="flex gap-x-2 mt-8">
+      <nav id="expirence" class="flex gap-x-2 mt-8">
         <SocialPill href="https://www.linkedin.com/in/michael-pineda-cárdenas-6779a5186">
           <LinkedIn class="size-6" />
             
@@ -63,15 +63,15 @@ const i18n = getI18n({ currentLocale });
             Bogotá, Colombia
         </SocialPill><SocialPill href="https://www.youtube.com/@smithos2121">
           <Youtube class="size-6" />
-            
+          Youtube
         </SocialPill><SocialPill href="https://twitter.com/smiithos">
-          <X class="size-6" />
-          
+          <X class="size-6 text-black" />
+          Twitter
         </SocialPill>
       </nav>  
     </SectionContainer>
 
-    <SectionContainer>
+    <SectionContainer >
       <Expirence />
     </SectionContainer>
       <Education />
